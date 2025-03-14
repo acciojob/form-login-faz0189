@@ -1,14 +1,11 @@
-function getFormvalue() {
-    // Prevent form submission
-    event.preventDefault();
+function getformvalue(){
+	event.preventDefault();
 
-    // Get form elements
-    const form = document.getElementById('form1');
+	let form  = document.querySelectorById('form1')
 
-    // Retrieve values
-    const firstName = form.fname.value;
-    const lastName = form.lname.value;
+	let firstname = form.fname.value
+	let lastname = form.lname.value
 
-    // Display full name
-    alert(firstName + ' ' + lastName);
+	alert = (firstname+" " + lastname);
+	
 }
