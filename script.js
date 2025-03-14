@@ -1,4 +1,4 @@
-function getformvalue(){
+function getformvalue(event){
 	event.preventDefault();
 
 	let form  = document.querySelectorById('form1')
@@ -6,6 +6,6 @@ function getformvalue(){
 	let firstname = form.fname.value
 	let lastname = form.lname.value
 
-	alert = (firstname+" " + lastname);
+	alert(firstname+" "+lastname);
 	
 }
